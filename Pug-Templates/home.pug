@@ -1,0 +1,76 @@
+extend index.pug
+
+block style
+    style
+        include ../css/home.css
+
+
+block content
+    section#cover
+        h1 WAY TO FUTURE
+        p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero nisi totam id eaque corporis et maxime!
+        div#btn
+            button.btn(type="button" onclick="location.href='/contact'") GET STARTED
+    section#section2
+        div#section2-content
+            div#message
+                h1 EXPLORE THE WAY YOU WANT 
+                p DREAMS ARE NOT WHAT YOU SE IN SLEEP, IT IS THE THING WHICH DOESN'T LET YOU SLEEP.
+            div#message-data
+                p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum unde voluptatum atque neque hic ducimus eum sunt facilis quasi fugit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, laudantium.
+                p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, expedita! At nihil nulla quae iusto quibusdam aperiam expedita maxime dolorum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic eligendi nemo recusandae quia similique cumque delectus esse dolores quos magnam?
+    section#section3
+        div#section3-content
+            div#s3message
+                h1 TOP PRIORITY UNIVERSITIES
+                P Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, amet?
+            div#s3message-data
+                div.img-box
+                    img(src="../Static/tuni.jpg", alt="ERROR")
+                    p TECHNICAL UNIVERSITY
+                div.img-box
+                    img(src="../Static/huni.jpg", alt="ERROR")
+                    p HEIDELBERG UNIVERSITY
+            div#section3-btn
+                button.btn#s3btn1(type="button" onclick="location.href='/'") TOP UNI OF GERMANY
+                button.btn#s3btn2(type="button" onclick="location.href='/'") TOP UNI OF EUROP&nbsp;&nbsp; 
+                
+    section#section4
+        div#s4content
+            div#s4heading
+                h1 COUNTRIES IN SCHENGEN AREA
+                p Lorem ipsum dolor sit, amet consectetur adipisicing.
+            div#s4boxcontainer
+                div.s4box
+                    div.boxdata.left
+                        h1 GERMANY
+                        h5 Lorem ipsum dolor sit amet.
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate totam nulla sequi nobis dolor numquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quos sit cum et quae harum, veniam dolorem alias est autem.
+                    div.boximg
+                        img(src="../static/g.jpg", alt="ERROR")
+                div.s4box
+                    div.boximg
+                        img(src="../static/i.jpg", alt="ERROR")
+                    div.boxdata.right
+                        h1 ITLY
+                        h5 Lorem ipsum dolor sit amet.
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate totam nulla sequi nobis dolor numquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quos sit cum et quae harum, veniam dolorem alias est autem.
+                div.s4box
+                    div.boxdata.left
+                        h1 DENMARK
+                        h5 Lorem ipsum dolor sit amet.
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate totam nulla sequi nobis dolor numquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quos sit cum et quae harum, veniam dolorem alias est autem.
+                    div.boximg
+                        img(src="../static/d.jpg", alt="ERROR")
+                div.s4box
+                    div.boximg
+                        img(src="../static/s.jpg", alt="ERROR")
+                    div.boxdata.right
+                        h1 SWITZERLAND
+                        h5 Lorem ipsum dolor sit amet.
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate totam nulla sequi nobis dolor numquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quos sit cum et quae harum, veniam dolorem alias est autem.
+    section#section5
+        div#s5content
+            h1 DON'T MISS YOU OPPORTUNITY
+            p  NOTHING IS MORE EXPENSIVE THEN A MISSED OPPORTUNITY!
+            button.btn(type='button' onclick="location.href='/contact'") WAY TO DREAMS

@@ -1,0 +1,42 @@
+extend index.pug
+
+block style
+    style
+        include ../css/contact.css
+    
+
+block content
+    div#contact
+        div#contact-form
+            h1 CONTACT US
+            p "TAEK WHAT YOU CAN FROM YOUR DREAMS, MAKE THEM AS REAL AS ANYTHING"
+            div#form
+                form(action="/contact" , method="post")
+                    input(type="text" id='name' name='name' placeholder='Name' class='intro bk')
+                    input(type="text" id='email' name='email' placeholder='Email' class='intro bk')
+                    div#optionlogo.martop
+                        select(name="degree" id='degree' class='bk')
+                            option(value="") - Select Degree Program -
+                            option(value="1") Bachlor's of Computer Science.
+                            option(value="2") Bachlor's of Software Engineer.
+                            option(value="3") Bachlor's of Information Technology.
+                            option(value="4") Bachlor's of Artificial Intelligence Engineer.
+                        label#radio1.radiobox.martop
+                            input(type="radio", name="priori" id='low' class='checkbox bk tik' checked)
+                            |Low Priority
+                        label#radio2.radiobox.martop
+                            input(type="radio", name="priori" id='normal' class='checkbox bk tik' )
+                            |Normal Priority
+                        label#radio3.radiobox.martop
+                            input(type="radio", name="priori" id='high' class='checkbox bk tik' )
+                            |High Priority
+                        br
+                        label#checkbox.martop
+                            input(type="checkbox", name="agree" id='check' class='bk tik')
+                            |Agree with TERMS & CONDITIONS
+                        div#mess.martop
+                            textarea(name="message", rows="6" id='message' class='bk' placeholder="Enter Your Message")
+                    div#button
+                        ul
+                            li #[button.conbtn#conbtn1(type="submit") SUBMIT]
+                            li #[button.conbtn#conbtn2(type="reset") RESET]

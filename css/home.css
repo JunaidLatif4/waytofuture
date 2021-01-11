@@ -1,0 +1,256 @@
+/* ---------HEAD BACKGROUND--------- */
+header::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-image:url('../Static/cover.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -5;
+}
+/* --------COVER SECTION--------- */
+#cover{
+    height: 740px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+#cover h1{
+    font-weight: bold;
+    font-size: 55px;
+    color: white;
+}
+#cover p {
+    width: 800px;
+    padding: 30px 3px;
+    font-family: 'Raleway', sans-serif;
+    color: #c7c7c7;
+}
+
+/* ---------SECTION 2---------- */
+#section2{
+    height: 620px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color:white ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section2-content{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+}
+#section2-content #message{
+    font-size: 35px;
+}
+#section2-content #message h1{
+    margin-bottom: 15px;
+    color: #484848;
+}
+#section2-content #message p{
+    color: #aaa;
+    width: 500px;
+}
+#message-data{
+    color: #aaa;
+    font-size: 22px;
+    width: 70%;
+    line-height: 25px;
+    height: 350px;
+    
+}
+#message-data p{
+    margin: 20px 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* -----------SECTION 3--------- */
+#section3{
+    height: 1000px;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#section3-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#s3message{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 70px;
+}
+#s3message h1 {
+    color: #484848;
+    margin-bottom: 15px;
+}
+#s3message p{
+    color: #aaa;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+}
+#s3message-data {
+    display: flex;
+    width: 1220px;
+    justify-content: space-between;
+    
+}
+#s3message-data .img-box{
+    width: 570px;
+    height: 570px;
+    background-color: white;
+    box-shadow: 1px 1px 15px #989898;
+    border-radius: 8px;
+}
+#s3message-data .img-box img{
+    width: 570px;
+    height: 450px;
+    background-size: cover;
+}
+#s3message-data .img-box p{
+    color: #484848;
+    text-align: center;
+    font-size: 30px;
+    padding: 28px 5px;
+}
+#section3-btn{
+    display: flex;
+    width: 650px;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+#section3-btn .btn{
+    font-size: 20px;
+} 
+#s3btn1{
+
+}
+#s3btn2{
+    background-color: #262429;
+    border: 2px solid #262429;
+}
+#s3btn2:hover{
+    background-color: #323037;
+    border: 2px solid #323037;
+}
+
+/* ---------SECTION4--------- */
+#section4{
+    height: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+}
+#s4content{
+    width: 1300px;
+    height: 750px;
+    
+}
+#s4heading h1{
+    color: #484848;
+    font-size: 35px;
+}
+#s4heading p{
+    color: #aaa;
+    font-size: 22px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+
+}
+#s4boxcontainer{
+    display: grid;
+    grid-template-columns: 600px 600px;
+    
+    column-gap: 100px;
+    row-gap: 72px;
+}
+.s4box{
+    height: 300px;
+    display: flex;
+    line-height: 30px;
+}
+.s4box h1{
+    color: #484848;
+    font-size: 30px;
+}
+.s4box h5{
+    margin-bottom: 30px;
+    color: #aaa;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.s4box p{
+    color: #aaa;
+    font-family: 'Raleway', sans-serif;
+
+}
+.s4box .left{
+    text-align: right;
+    margin-right: 25px;
+}
+.s4box .right{
+    margin-left: 25px;
+}
+.boximg img{
+    height: 140px;
+    width: 140px;
+    border: 10px solid #aaa;
+    border-radius: 130px;
+    opacity: 0.87;
+}
+
+/* -------------SECTION 5------------ */
+
+#section5{
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    
+}
+#section5::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-image:url('../Static/cover2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -5;
+}
+#s5content{
+    line-height: 55px;
+    
+}
+#s5content h1{
+    font-size: 35px;
+    color: white;
+}
+#s5content p{
+    font-size: 22px;
+    color: rgb(187, 186, 186);
+    font-family: 'Raleway', sans-serif;
+
+}
+#s5content button{
+    margin-top: 30px;
+}

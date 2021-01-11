@@ -1,0 +1,230 @@
+/* -----------NAV---------- */
+*{
+    font-family: 'Raleway', sans-serif !important;
+
+}
+#nav{
+    background-color: white;
+    color: #aaaaaa !important;
+    border-bottom: 2px solid #aaaaaa;
+}
+#nav #logo strong{
+    color: #484848 !important;
+}
+#nav ul li a{
+    color: #aaaaaa !important ;
+}
+#nav ul li a:hover{
+    color: #484848 !important;
+}
+
+/* ----------CONTACT SECTION---------- */
+#contact{
+    height: 740px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#contact-form{
+    width: 1350px;
+
+}
+#contact-form h1{
+    text-align: center;
+    color: #484848;
+    font-size: 35px;
+    font-family: 'Ubuntu', sans-serif !important;
+    margin: 8px;
+
+}
+#contact-form P{
+    text-align: center;
+    color: #aaaaaa;
+    font-size: 20px;
+    margin-bottom: 50px;
+
+}
+
+
+/* ---------FORM-------- */
+form{
+    font-size: 20px;
+    color: #666;
+}
+.martop{
+    margin-top: 18px;
+}
+
+
+.intro{
+    width: 660px;
+    font-size: 20px;
+    padding: 15px;
+    background-color: #90909013;
+    border: 1px solid #90909040;
+    border-radius: 5px;
+    outline-color: #f21947;
+}
+#email{
+    margin-left: 20px;
+}
+
+#optionlogo select{
+    width: 1340px;
+    padding: 15px;
+    color: #666;
+    font-size: 17px;
+    background-color: #90909013;
+    border: 1px solid #90909040;
+    border-radius: 5px;
+    outline-color: #f21947;
+}
+
+
+.radiobox{
+    display: inline-block;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 18rem;
+}
+input[type='radio']{
+    position: relative;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    appearance: none;
+    outline: none;
+    margin-right: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.055);
+    border-radius: 100%;
+    
+}
+input[type='radio']:before{
+    content: "";
+    position: absolute;
+    top: -3;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background-color: #90909013;
+    border: 1px solid #90909040;
+    border-radius: 100%;
+    padding: 3px;
+}
+input:checked[type='radio']:before{
+    content: "\f00c";
+    position: absolute;
+    top: -3;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background: #323037;
+    border-color: #323037;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 3px;
+    border: 2px solid #f21947;
+    font-family: FontAwesome;
+}
+
+
+#checkbox{
+    display: inline-block;
+    cursor: pointer;
+    font-size: 20px;
+}
+input[type='checkbox']{
+    position: relative;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    appearance: none;
+    outline: none;
+    margin-right: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.055);
+    border-radius: 100%;
+    
+}
+input[type='checkbox']:before{
+    content: "";
+    position: absolute;
+    top: -2;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background-color: #90909013;
+    border: 1px solid #90909040;
+    border-radius: 5px;
+    padding: 3px;
+}
+input:checked[type='checkbox']:before{
+    content: "\f00c";
+    position: absolute;
+    top: -2;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background: #323037;
+    border-color: #323037;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 3px;
+    border: 2px solid #f21947;
+    font-family: FontAwesome;
+}
+
+
+#message{
+    padding: 15px;
+    width: 1340px;
+    font-size: 20px;
+    background-color: #90909013;
+    border: 1px solid #90909040;
+    border-radius: 4px;
+    outline-color: #f21947;
+}
+
+/* ---------BUTTON---------- */
+#button{
+    margin-top: 18px;
+}
+#button ul{
+    list-style: none;
+}
+#button ul li{
+    float: left;
+    margin-right: 20px;
+}
+
+.conbtn{
+    background-color: #f21947;
+    padding: 15px 50px;
+    font-size: 22px;
+    color: white;
+    border: 2px solid #f21947;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif !important;
+    font-weight: 400;
+}
+.conbtn:hover{
+    background-color: #f44066;
+    border: 2px solid #f44066;
+}
+
+#conbtn2{
+    background-color: #323037;
+    border: 2px solid #323037;
+}
+#conbtn2:hover{
+    background-color: #3e3c45;
+    border: 2px solid #3e3c45;
+}
+
+
+
